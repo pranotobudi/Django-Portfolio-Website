@@ -2,8 +2,8 @@ from .base import *
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-DEBUG = True
-ALLOWED_HOST = ['pranotobudi-website.herokuapp.com']
+DEBUG = False
+ALLOWED_HOSTS = ['pranotobudi-website.herokuapp.com']
 
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases

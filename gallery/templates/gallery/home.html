@@ -125,7 +125,7 @@
           <!-- Grid column -->
       
           <!-- Grid column -->
-          <div class="col-md-6 mb-md-0 mb-4">
+          <div class="col-md-4 mb-md-0 mb-4">
             <div class="card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img%20%2873%29.jpg);">
               <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
                 <div>
@@ -146,7 +146,28 @@
           <!-- Grid column -->
       
           <!-- Grid column -->
-          <div class="col-md-6">
+          <div class="col-md-4 mb-md-0 mb-4">
+            <div class="card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img%20%2873%29.jpg);">
+              <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
+                <div>
+                  <h6 class="blue-text">
+                    <i class="fas fa-chart-pie"></i>
+                    <strong> Asynchronous Task</strong>
+                  </h6>
+                  <h3 class="py-3 font-weight-bold">
+                    <strong>Asynx</strong>
+                  </h3>
+                  <p class="pb-3">This project will execute asynchronous task to generate random user and use periodic task (scheduler) to load flickr images. 
+                  </p>
+                  <a class="btn btn-blue btn-rounded btn-md" href="#asynx"><i class="fas fa-clone left"></i> See More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4">
             <div class="card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/City/6-col/img%20%2847%29.jpg);">
               <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
                 <div>
@@ -489,66 +510,169 @@
           View Mini CMS in Action
         </button>
       </a>
-    <!-- Section: Features v.1 -->
-    <section class="text-center my-5">
 
-            <!-- Section heading -->
-            <h2 id="my-personal-website" class="h1-responsive font-weight-bold my-5">My Personal Website</h2>
-            <!-- Section description -->
-            <p class="lead grey-text w-responsive mx-auto mb-5">Powered by Django + MDBootstrap + Heroku</p>
-          
-            <!-- Grid row -->
-            <div class="row">
-          
-              <!-- Grid column -->
-              <div class="col-md-4">
-          
-                <i class="fas fa-chart-area fa-3x red-text"></i>
-                <h5 class="font-weight-bold my-4">Material Design Bootstrap</h5>
-                <p class="grey-text mb-md-0 mb-5">
-                  It Utilizes material design bootstrap (Bootstrap with material design concept) as CSS Framework.
-                </p>
-          
-              </div>
-              <!-- Grid column -->
-          
-              <!-- Grid column -->
-              <div class="col-md-4">
-          
-                <i class="fas fa-book fa-3x cyan-text"></i>
-                <h5 class="font-weight-bold my-4">Variable Environment</h5>
-                <p class="grey-text mb-md-0 mb-5">
-                    It crete separate files for development and production. It helps us to set different value for our Database variables, etc.                 
-                </p>
-          
-              </div>
-              <!-- Grid column -->
-          
-              <!-- Grid column -->
-              <div class="col-md-4">
-          
-                <i class="far fa-comments fa-3x orange-text"></i>
-                <h5 class="font-weight-bold my-4">MVT Architecture</h5>
-                <p class="grey-text mb-0">
-                  It uses pure MVT (Model View Template) architecture and URL routing from Django.
-                </p>
-          
-              </div>
-              <!-- Grid column -->
-          
+ <!-- Section: Features v.3 -->
+<section class="my-5">
+
+  <!-- Section heading -->
+  <h2 id="asynx" class="h1-responsive font-weight-bold text-center my-5">Asynx</h2>
+  <!-- Section description -->
+  <p class="lead grey-text text-center w-responsive mx-auto mb-5">Powered by Django + Celery + Ajax + Heroku</p>
+
+  <!-- Grid row -->
+  <div class="row">
+
+    <!-- Grid column -->
+    <div class="col-lg-5 text-center text-lg-left">
+      <!-- <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/screens-section.jpg" alt="Sample image"> -->
+      <img class="img-fluid" src="https://s3.amazonaws.com/proactivedomain/mac_desktop--asynx-500px.png" alt="Asynx image">
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="col-lg-7">
+
+
+
+      <!-- Grid row -->
+      <div class="row mb-3">
+
+        <!-- Grid column -->
+        <div class="col-1">
+          <i class="fas fa-share fa-lg indigo-text"></i>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-xl-10 col-md-11 col-10">
+          <h5 class="font-weight-bold mb-3">Asynchronous Task</h5>
+          <p class="grey-text">It generate random user account using Asynchrnous Celery Task</p>
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+      
+      <!-- Grid row -->
+      <div class="row mb-3">
+
+        <!-- Grid column -->
+        <div class="col-1">
+          <i class="fas fa-share fa-lg indigo-text"></i>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-xl-10 col-md-11 col-10">
+          <h5 class="font-weight-bold mb-3">Periodic Task (Scheduler)</h5>
+          <p class="grey-text">It check and grab flickr images url periodically and display it on the page.</p>
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+      <!-- Grid row -->
+      <div class="row mb-3">
+
+        <!-- Grid column -->
+        <div class="col-1">
+          <i class="fas fa-share fa-lg indigo-text"></i>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-xl-10 col-md-11 col-10">
+          <h5 class="font-weight-bold mb-3">Ajax</h5>
+          <p class="grey-text">It uses ajax to check random user generation process and display progress bar on the screen.</p>
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+      </div>
+      <!--Grid row-->
+
+    </div>
+    <!--Grid column-->
+
+  </div>
+  <!-- Grid row -->
+
+</section>
+<!-- Section: Features v.3 -->
+<a 
+href="https://django-celery-asynx.herokuapp.com/" 
+target="_blank" 
+style="text-decoration: none; color: white"
+>
+  <button type="button" class="btn blue-gradient btn-lg btn-block">
+    View Asynx in Action
+  </button>
+</a>
+
+      
+  <!-- Section: Features v.1 -->
+  <section class="text-center my-5">
+
+          <!-- Section heading -->
+          <h2 id="my-personal-website" class="h1-responsive font-weight-bold my-5">My Personal Website</h2>
+          <!-- Section description -->
+          <p class="lead grey-text w-responsive mx-auto mb-5">Powered by Django + MDBootstrap + Heroku</p>
+        
+          <!-- Grid row -->
+          <div class="row">
+        
+            <!-- Grid column -->
+            <div class="col-md-4">
+        
+              <i class="fas fa-chart-area fa-3x red-text"></i>
+              <h5 class="font-weight-bold my-4">Material Design Bootstrap</h5>
+              <p class="grey-text mb-md-0 mb-5">
+                It Utilizes material design bootstrap (Bootstrap with material design concept) as CSS Framework.
+              </p>
+        
             </div>
-            <!-- Grid row -->
-          
-          </section>
-          <!-- Section: Features v.1 -->
-          <a 
-      href="#home" 
-      style="text-decoration: none; color: white"
-      >
-        <button type="button" class="btn blue-gradient btn-lg btn-block">
-          My Website in Action
-        </button>
-      </a>
+            <!-- Grid column -->
+        
+            <!-- Grid column -->
+            <div class="col-md-4">
+        
+              <i class="fas fa-book fa-3x cyan-text"></i>
+              <h5 class="font-weight-bold my-4">Variable Environment</h5>
+              <p class="grey-text mb-md-0 mb-5">
+                  It crete separate files for development and production. It helps us to set different value for our Database variables, etc.                 
+              </p>
+        
+            </div>
+            <!-- Grid column -->
+        
+            <!-- Grid column -->
+            <div class="col-md-4">
+        
+              <i class="far fa-comments fa-3x orange-text"></i>
+              <h5 class="font-weight-bold my-4">MVT Architecture</h5>
+              <p class="grey-text mb-0">
+                It uses pure MVT (Model View Template) architecture and URL routing from Django.
+              </p>
+        
+            </div>
+            <!-- Grid column -->
+        
+          </div>
+          <!-- Grid row -->
+        
+        </section>
+        <!-- Section: Features v.1 -->
+        <a 
+    href="#home" 
+    style="text-decoration: none; color: white"
+    >
+      <button type="button" class="btn aqua-gradient btn-lg btn-block">
+        My Website in Action
+      </button>
+    </a>
 
           
 <!-- Footer -->

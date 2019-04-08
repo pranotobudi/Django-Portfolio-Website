@@ -517,7 +517,7 @@
   <!-- Section heading -->
   <h2 id="asynx" class="h1-responsive font-weight-bold text-center my-5">Asynx</h2>
   <!-- Section description -->
-  <p class="lead grey-text text-center w-responsive mx-auto mb-5">Powered by Django + Celery + Ajax + Heroku</p>
+  <p class="lead grey-text text-center w-responsive mx-auto mb-5">Powered by Django + Celery + RabbitMQ + Ajax + Heroku</p>
 
   <!-- Grid row -->
   <div class="row">
@@ -546,7 +546,7 @@
         <!-- Grid column -->
         <div class="col-xl-10 col-md-11 col-10">
           <h5 class="font-weight-bold mb-3">Asynchronous Task</h5>
-          <p class="grey-text">It generate random user account using Asynchrnous Celery Task</p>
+          <p class="grey-text">It generates random user account using Asynchronous Celery Task with RabbitMQ as the message broker.</p>
         </div>
         <!-- Grid column -->
 
@@ -565,7 +565,7 @@
         <!-- Grid column -->
         <div class="col-xl-10 col-md-11 col-10">
           <h5 class="font-weight-bold mb-3">Periodic Task (Scheduler)</h5>
-          <p class="grey-text">It check and grab flickr images url periodically and display it on the page.</p>
+          <p class="grey-text">It checks and grabs flickr images url periodically using Celery periodic task and display it on the page.</p>
         </div>
         <!-- Grid column -->
 
